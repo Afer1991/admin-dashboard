@@ -128,5 +128,8 @@
 
 .main-content {
   grid-area: 2 / 2 / 3 / 3;
-  background-color: lightgrey;
+  background-color: #eef2ff;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
 }
+
