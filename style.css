@@ -168,3 +168,12 @@
   grid-template-columns: repeat(3, 50px);
   justify-content: end;
 }
+
+.main-content-2 {
+  padding-top: 36px;
+}
+
+.trending img {
+  height: 80px;
+  width: auto;
+}
