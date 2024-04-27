@@ -15,6 +15,7 @@
   background-color: #FFF;
   display: grid;
   grid-template-columns: 3fr 1fr;
+  box-shadow: l;
 }
 
 .search-bar {
@@ -130,6 +131,40 @@
   grid-area: 2 / 2 / 3 / 3;
   background-color: #eef2ff;
   display: grid;
-  grid-template-columns: 2.5fr 1fr;
+  grid-template-columns: 3fr 1fr;
 }
 
+.main-content-1 {
+  padding: 36px 24px 48px;
+}
+
+.divider {
+  display: grid;
+  padding-top: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: #FFF;
+  padding: 36px 24px;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 6px 5px #bbbbbb, inset 8px 0 gold;
+}
+
+
+.title {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  margin-bottom: 4px;
+}
+
+.card-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  justify-content: end;
+}
